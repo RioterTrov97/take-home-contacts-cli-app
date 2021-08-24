@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS Contact (
+  name TEXT NOT NULL,
+  number TEXT NOT NULL
+);
