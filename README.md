@@ -1,31 +1,32 @@
-# Contacts
+# Contacts CLI App
 
-A simple CLI based phone book. Written in JavaScript to run via Node.
+A simple CLI based phone book. Written in Typescript to run via `node` in
+development and `ts-node-dev` in production.
 
-# Install
+# ⚙️ Install
 
-The application can be obtained by cloning the repository and initialising using npm
+The application can be obtained by cloning the repository and initialising using
+npm
 
 ```
-git clone git@github.com:jamesmillar/contacts.git
+git clone https://github.com/RioterTrov97/take-home-contacts-cli-app.git
 npm install
 ```
 
-# Usage
+# 📜 Usage
 
 Run the application using Node:
 
-`node contacts.js`
+`npm start`
 
-If you have Node available in `/usr/bin` you can execute directly from your 
-shell:
+Run the tests for the app using Node:
 
-`./contacts.js`
+`npm run test`
 
-# Development
+# 👨‍💻 Development
 
 You can reset the database and initialise with test data by calling:
 
 `npm run reset`
 
-Development scripts and data can be found in `/dev`.
+Development scripts and data can be found in `/dev` & `/scripts`.
