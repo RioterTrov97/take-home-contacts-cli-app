@@ -1,7 +1,7 @@
 # Contacts CLI App
 
-A simple CLI based phone book. Written in Typescript to run via `node` in
-development and `ts-node-dev` in production.
+A simple CLI based phone book. Written in Typescript to run via `ts-node-dev` in
+development and `node` in production.
 
 # ⚙️ Install
 
